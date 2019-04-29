@@ -26,7 +26,7 @@ exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/contr
 
 
 
-ef ngontol():
+def ngontol():
 	if os.path.exists("checkpoint.txt"):
 		if os.path.getsize("checkpoint.txt") !=0:
 			cek=raw_input('%s[!]%s file exists: %scheckpoint.txt%s\n%s[?]%s replace? y/n): '%(R,N,B,N,R,N)).lower()
