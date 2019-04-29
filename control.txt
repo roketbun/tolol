@@ -1,1 +1,1 @@
-Git rm main.py
+git rm main.py
