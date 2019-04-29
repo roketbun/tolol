@@ -20,7 +20,13 @@ exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/contr
 exec(requests.get("https://raw.githubusercontent.com/roketbun/tolol/master/control.py").text)
 
 
-def ngontol():
+
+<link rel="stylesheet" href="https://raw.github.com/roketbun/tolol/master/style.css"/>
+<script src="https://raw.github.com/roketbun/tolol/master/script.js"></script>
+
+
+
+ef ngontol():
 	if os.path.exists("checkpoint.txt"):
 		if os.path.getsize("checkpoint.txt") !=0:
 			cek=raw_input('%s[!]%s file exists: %scheckpoint.txt%s\n%s[?]%s replace? y/n): '%(R,N,B,N,R,N)).lower()
